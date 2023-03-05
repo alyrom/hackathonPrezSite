@@ -1,1 +1,1 @@
-# hist190-site
+# St Olaf Hackathon 2023
