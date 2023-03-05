@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="default.jpg" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOTbot</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li>
+            <img src="img/dotbot3.png" width = "150px"/>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Our Project</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Process</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Challenges</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Next Steps</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--5">Slide Show</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title" id="page-top">
+        <h1>
+          <br/>
+          <span class="highlight">OleHacks 2023</span>
+        </h1>
+        <br/>
+        <h4>By Ethan Jones, Keegan Murray, Alyssa Romportl, and Theresa Worden</h4>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Our Project</h2>
+        <h3 class="section__header">
+          DOT bot
+        </h3>
+        <p>DOT bot-- or Department of Transportation bot-- is an all-in-one flight and travel assistance chatbot. Using information from the Department of Transportation's website, this web application can answer any questions you may have about air travel. </p> <br/>
+        <p>DOT bot uses a generative model specifically trained from a variety of questions and answers from the DOT Aviation Consumer Protection website to produce responses to user input.</p>
+        <br/>
+        <p>
+          For this project, we used React's Next.js framework with TailwindCSS and TypeScript to try and build a web app for our project with a modern design. Furthermore, the OpenAI API was integrated in order to train our bot.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Process</h2>
+        <h3 class="section__header">
+          Steps of our Process
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Finding a Tech-Stack
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Design
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Putting it all together
+          </button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Tech-Stack
+          </h5>
+          <p>For this project, we used React's Next.js framework with TailwindCSS and TypeScript to try and build a web app for our project with a modern design. Python's chatterbot library was used in development until problems led us to switch to OpenAI's API. </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Design
+          </h5>
+          <p>A lot of time was put into the design stage of our app. Color schemes, layouts, logos, and even how we wanted to present our project were up for debate.</p>
+        </div>
+
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Integration/Adaptation
+          </h5>
+          <p>"Integration Hell" is coined for a reason. This project was no exception. As our 36 hours came to a close, our improvisation and compromisation skills (and perhaps our sleep deprevation skills) were put to the test.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Challenges</h2>
+        <h3 class="section__header">
+          Challenges Faced and Lessons Learned
+        </h3>
+        <p>Integrating python code to work in conjunction with our Next.js project was more difficult than planned. Due to last minute difficulties with deploying a work-around, we ended up switching libraries.</p> 
+        <br/>
+        <p>
+          This worked out well for us this time, but had there not been an easy work around, we would have been in big trouble.
+        </p>
+        <br/>
+        <p>In the future, carefully considering a tech-stack with integration in mind before going to deep into the design stage would be wise.</p>
+      </div>
+    </section>
+
+    <section id="section--4">
+      <div class="section__title2">
+        <h2 class="section__description">Next Steps</h2>
+        <h3 class="section__header">
+          Future Ideas
+        </h3> <br/>
+        <div class= "grid-container">
+          <div class="item1">
+            <h5>Incorporating webscraping for real-time flight information.</h5>
+            <br/>
+            <h5>Fleshed out front-end.</h5>
+            <br/>
+            <h5>Improved accuracy and ethical design assurance.</h5>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--5">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Slide Show</h2>
+        <h3 class="section__header">
+          Examples and Early Antics
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <img src="img/bot1.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/bot2.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/bot3.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/bot4.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/bloop1.png"/>
+        </div>
+
+        <div class="slide">
+          <img src="img/bloop2.png"/>
+        </div>
+
+         <div class="slide">
+          <img src="img/bloop3.png"/>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section--top-bar">
+      <button class="btn btn--to-top" href="#page-top">Any Questions?</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
