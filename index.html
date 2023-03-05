@@ -53,14 +53,12 @@
     <section class="section" id="section--1">
       <div class="section__title">
         <h2 class="section__description">Our Project</h2>
-        <h3 class="section__header">
-          DOT bot
-        </h3>
-        <p>DOT bot-- or Department of Transportation bot-- is an all-in-one flight and travel assistance chatbot. Using information from the Department of Transportation's website, this web application can answer any questions you may have about air travel. </p> <br/>
-        <p>DOT bot uses a generative model specifically trained from a variety of questions and answers from the DOT Aviation Consumer Protection website to produce responses to user input.</p>
+          <img src="img/dblogo.png" class="section-img"/>
+        <p>DOTbot--or Department of Transportation bot--is an all-in-one flight and travel assistance chatbot. Using information from the Department of Transportation's website, our web application can answer any questions you may have about air travel. </p> <br/>
+        <p>DOTbot uses a generative model specifically trained from a variety of questions and answers from the DOT Aviation Consumer Protection website to produce responses to user input.</p>
         <br/>
         <p>
-          For this project, we used React's Next.js framework with TailwindCSS and TypeScript to try and build a web app for our project with a modern design. Furthermore, the OpenAI API was integrated in order to train our bot.
+          For this project, we used React's Next.js framework with TailwindCSS and TypeScript to build a web app for our project with a modern design. Furthermore, the OpenAI API was integrated in order to train our bot.
         </p>
       </div>
     </section>
@@ -100,7 +98,7 @@
           <h5 class="operations__header">
             Tech-Stack
           </h5>
-          <p>For this project, we used React's Next.js framework with TailwindCSS and TypeScript to try and build a web app for our project with a modern design. Python's chatterbot library was used in development until problems led us to switch to OpenAI's API. </p>
+          <p>For this project, we used React's Next.js framework with TailwindCSS and TypeScript to build a web app for our project with a modern design. Python's chatterbot library was used in development until problems led us to switch to OpenAI's API. We needed to input questions and answers about aviation travel to train the bot.</p>
         </div>
 
         <div class="operations__content operations__content--2">
@@ -112,7 +110,7 @@
           <h5 class="operations__header">
             Design
           </h5>
-          <p>A lot of time was put into the design stage of our app. Color schemes, layouts, logos, and even how we wanted to present our project were up for debate.</p>
+          <p>A lot of time was put into the design stage of our app. Color schemes, layouts, logos, and even how we wanted to present our project were discussed as a group.</p>
         </div>
 
         <div class="operations__content operations__content--3">
@@ -135,13 +133,13 @@
         <h3 class="section__header">
           Challenges Faced and Lessons Learned
         </h3>
-        <p>Integrating python code to work in conjunction with our Next.js project was more difficult than planned. Due to last minute difficulties with deploying a work-around, we ended up switching libraries.</p> 
+        <p>Integrating python code to work in conjunction with our Next.js project was more difficult than planned. Due to last minute difficulties with deploying a work-around, we ended up switching libraries. This worked out well for us this time, but had there not been an easy work around, we would have been in big trouble.</p> 
         <br/>
         <p>
-          This worked out well for us this time, but had there not been an easy work around, we would have been in big trouble.
+          In the future, carefully considering a tech-stack with integration in mind before going to deep into the design stage would be wise.
         </p>
         <br/>
-        <p>In the future, carefully considering a tech-stack with integration in mind before going to deep into the design stage would be wise.</p>
+        <p>We also ran into problems with the chatbot's runtime. At first, DOTbot took over a minute to respond. After moving all of our data into a JSON file, DOTbot took around 10 seconds to respond.</p>
       </div>
     </section>
 
@@ -154,6 +152,7 @@
         <div class= "grid-container">
           <div class="item1">
             <h5>Incorporating webscraping for real-time flight information.</h5>
+              <p>We started doing this using the python library BeautifulSoup. We were able to parse flight number and arrival/departure time.</p>
             <br/>
             <h5>Fleshed out front-end.</h5>
             <br/>
